@@ -25,6 +25,6 @@ dependencies {
 }
 在目录kgplayer-java/src/main/下添加jniLibs,并添加so库文件。
 
-# 注意我这里的so库版本是0.8.3，所以依赖中ijkplayer-java的版本也要改为0.8.3
+## 注意我这里的so库版本是0.8.3，所以依赖中ijkplayer-java的版本也要改为0.8.3
 
 
