@@ -1,8 +1,9 @@
 package com.kuaige.kgplayer;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.kuaige.player.listener.VideoListener;
 import com.kuaige.player.player.VideoPlayer;

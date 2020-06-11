@@ -24,17 +24,12 @@ allprojects {
 
 ext {
     minSdkVersion = 16
-    targetSdkVersion = 27
-    compileSdkVersion = 27
-    buildToolsVersion = '27.0.3'
+    targetSdkVersion = 28
+    compileSdkVersion = 29
+    buildToolsVersion = '29.0.2'
 
     // App dependencies
-    supportLibraryVersion = '27.0.2'
     ijkPlayerVersion = '0.8.3'
-}
-
-wrapper {
-    gradleVersion = '4.1'
 }
 
 task clean(type: Delete) {

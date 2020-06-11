@@ -8,16 +8,13 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
     }
-
-//    sourceSets {
-//        main {
-//            jniLibs.srcDirs = ['jniLibs']
-//        }
-//    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+    implementation "androidx.appcompat:appcompat:1.1.0"
+    //引入jar使用相关api
     api "tv.danmaku.ijk.media:ijkplayer-java:$rootProject.ijkPlayerVersion"
+    //引入so文件，相当于在文件夹libs/armeabi-v7a/下面放入需要的so文件
+//   implementation "tv.danmaku.ijk.media:ijkplayer-armv7a:$rootProject.ijkPlayerVersion"
 }

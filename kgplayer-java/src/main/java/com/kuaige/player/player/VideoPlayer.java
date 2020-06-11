@@ -4,13 +4,14 @@ import android.content.Context;
 import android.graphics.Color;
 import android.media.AudioManager;
 import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.widget.FrameLayout;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.kuaige.player.listener.VideoListener;
 
@@ -21,10 +22,7 @@ import tv.danmaku.ijk.media.player.IMediaPlayer;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 
 /**
- * Author: wangkai(wangkai@tv365.net)
- * Date: 2018-10-08
- * Time: 15:01
- * Description:
+ * @author dragon
  */
 public class VideoPlayer extends FrameLayout {
 
